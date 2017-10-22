@@ -1,0 +1,21 @@
+﻿<Window x:Class="ChamHuntApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Хамелеон атакует!"
+        WindowStyle = "None"   Name="TheMainWindow" KeyDown="TheMainWindow_KeyDown" Loaded="TheMainWindow_Loaded" WindowState="Maximized" MouseMove="TheMainWindow_MouseMove" MouseDoubleClick="TheMainWindow_MouseDoubleClick">
+    <Grid Name="MainGrid">
+        <!--<Canvas Name ="ChamBodyCanvas" HorizontalAlignment="Left" Height="374" VerticalAlignment="Top" Width="592">
+            <Canvas.Background>
+                <ImageBrush ImageSource="C:\Users\Gregory\Documents\Всякие нужности\Лёня\Хамелеон\ChamHuntApp\ChamHuntApp\Resources\chameleon_body.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Canvas Name="ChamHeadCanvas" Width="179" Height="124" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Canvas.Background>
+                <ImageBrush ImageSource="C:\Users\Gregory\Documents\Всякие нужности\Лёня\Хамелеон\ChamHuntApp\ChamHuntApp\Resources\chameleon_head.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Label Name="AngleLabel" Content="Label" HorizontalAlignment="Right" VerticalAlignment="Top"/>-->
+
+        <Label Name="TestLabel" Content="Label" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
